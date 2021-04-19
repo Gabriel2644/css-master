@@ -1,0 +1,143 @@
+.wrapper {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame {
+  background-color: aquamarine;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  border: 1px solid white;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#s0 {
+  border: 1px solid white;
+  animation-name: a0;
+}
+#s1 {
+  border: 1px solid blue;
+  animation-name: a1;
+}
+#s2 {
+  border: 1px solid green;
+  animation-name: a2;
+}
+#s3 {
+  border: 1px solid aqua;
+  animation-name: a3;
+}
+#s4 {
+  border: 1px solid violet;
+  animation-name: a4;
+}
+#s5 {
+  border: 1px solid yellow;
+  animation-name: a5;
+}
+#s6 {
+  border: 1px solid red;
+  animation-name: a5;
+}
+#s7 {
+  border: 1px solid indianred;
+  animation-name: a5;
+}
+#s8 {
+  border: 1px solid orange;
+  animation-name: a5;
+}
+#s9 {
+  border: 1px solid lightseagreen;
+  animation-name: a5;
+}
+@keyframes a0 {
+  50% {
+    transform: rotate(0deg);
+    border-color: red;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+@keyframes a1 {
+  50% {
+    border-color: yellow;
+    transform: rotate(20deg);
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+@keyframes a2 {
+  50% {
+    border-color: violet;
+    transform: rotate(60deg);
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+@keyframes a3 {
+  50% {
+    border-color: blue;
+    transform: rotate(120deg);
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+@keyframes a4 {
+  50% {
+    border-color: orange;
+    transform: rotate(180deg);
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+@keyframes a5 {
+  50% {
+    border-color: green;
+    transform: rotate(280deg);
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+@keyframes a6 {
+  50% {
+    border: indianred;
+    transform: rotate(360deg);
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+@keyframes a7 {
+  50% {
+    border-color: lightblue;
+    transform: rotate(300deg);
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+@keyframes a8 {
+  50% {
+    background-color: lightseagreen;
+    transform: rotate(240deg);
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+@keyframes a9 {
+  50% {
+    border-color: white;
+    transform: rotate(180deg);
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
